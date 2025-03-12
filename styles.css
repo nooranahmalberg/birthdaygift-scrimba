@@ -66,34 +66,39 @@ body {
 
 /* Maintain the special size for cheers while keeping it square */
 #gift-img-cheers {
-  height: 80vw;
+  height: 40vw;
   max-height: 200px;
   width: 80vw;
-  max-width: 200px;
+  max-width: 400px;
 }
 
 #gift-img-happy:hover,
-#gift-img-happy:active {
+#gift-img-happy:active,
+#gift-img-happy:focus-visible {
   background-image: url("images/happy.gif");
 }
 
 #gift-img-hot:hover,
-#gift-img-hot:active {
+#gift-img-hot:active,
+#gift-img-hot:focus-visible {
   background-image: url("images/hot.gif");
 }
 
 #gift-img-fantastic:hover,
-#gift-img-fantastic:active {
+#gift-img-fantastic:active,
+#gift-img-badass:focus-visible {
   background-image: url("images/fantastic.gif");
 }
 
 #gift-img-badass:hover,
-#gift-img-badass:active {
+#gift-img-badass:active,
+#gift-img-badass:focus-visible {
   background-image: url("images/badass.gif");
 }
 
 #gift-img-cheers:hover,
-#gift-img-cheers:active {
+#gift-img-cheers:active,
+#gift-img-cheers:focus-visible {
   background-image: url("images/cheers.gif");
 }
 
@@ -117,7 +122,7 @@ a {
   }
 
   #gift-img-cheers {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 120px;
   }
 }
