@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  background: linear-gradient(rgb(111, 4, 22), rgb(243, 146, 162));
+  color: #ffffff;
+}
+
+#bff-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+  margin-bottom: 10px;
+}
+
+#bday-date {
+  margin: 0 0 20px 0;
+  background: #efb0c9;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+.gift-img {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.gif");
+}
+
+#gift-img-fantastic:hover {
+  background-image: url("images/fantastic.gif");
+}
+
+#gift-img-badass:hover {
+  background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers.gif");
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
