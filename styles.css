@@ -55,23 +55,28 @@ body {
   background-position: center;
 }
 
-#gift-img-happy:hover {
+#gift-img-happy:hover,
+#gift-img-happy:active {
   background-image: url("images/happy.gif");
 }
 
-#gift-img-hot:hover {
+#gift-img-hot:hover,
+#gift-img-hot:active {
   background-image: url("images/hot.gif");
 }
 
-#gift-img-fantastic:hover {
+#gift-img-fantastic:hover,
+#gift-img-fantastic:active {
   background-image: url("images/fantastic.gif");
 }
 
-#gift-img-badass:hover {
+#gift-img-badass:hover,
+#gift-img-badass:active {
   background-image: url("images/badass.gif");
 }
 
-#gift-img-cheers:hover {
+#gift-img-cheers:hover,
+#gift-img-cheers:active {
   background-image: url("images/cheers.gif");
 }
 
